@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "IMS App Mobile EXPO54",
+    "slug": "imsapp-mobile-expo54",
+    "sdkVersion": "54.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "icon": "./assets/png.png",
+    "extra": {
+      "BACKEND_BASE": "https://test.ifda.in/api",
+      "eas": {
+        "projectId": "b5aeb4f1-bcd0-46f8-8aea-072e685a0eba"
+      }
+    },
+    "android": {
+      "package": "com.admin1464.imsappmobileexpo54",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow IMS App to access your microphone for audio messages."
+        }
+      ]
+    ],
+    "owner": "arbaz1234"
+  }
+}
